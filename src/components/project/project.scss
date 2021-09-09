@@ -1,0 +1,74 @@
+.project {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    .main {
+        flex: 0.95;
+        display: flex;
+        flex-direction: column;
+
+        .top {
+            flex: 0.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            //padding: 10px;
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                padding-bottom: 1%;
+            }
+
+            h2 {
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+
+        .bottom {
+            flex: 0.8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .imgContainer {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        
+
+                img {
+                    height: 100%;
+                }
+            }
+
+        }
+    }
+
+    .down {
+        flex:0.05;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            
+            img {
+                width: 30px;
+                animation: blink 2s infinite;
+            }
+
+            @keyframes blink {
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
+
+    }
+}
