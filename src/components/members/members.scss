@@ -31,7 +31,14 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: rgb(226, 223, 223);
+            background-color: rgb(236, 233, 233);
+
+            &:hover {
+                width: 350px;
+                height: 550px;
+                background-color: black;
+                color: white;
+            }
 
 
             .imgContainer {
@@ -56,23 +63,29 @@
 
                 h1 {
                     flex: 0.2;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 500;
 
                     a {
                         color: inherit;
+                        margin-left: 4px;
                     }
                 }
 
                 h2 {
                     flex: 0.2;
-                    font-size: 25px;
+                    font-size: 22px;
                     font-weight: 500;
                 }
 
-                h3 {
+
+                .bio {
                     flex: 0.6;
-                    font-weight: 300;
+                    width: 95%;
+
+                    h3 {
+                        font-weight: 300;
+                    }
                 }
 
             }
