@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .project {
     background-color: white;
     display: flex;
@@ -13,17 +15,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            //padding: 10px;
+            
+            .wrapper {
+                padding-top: 10px;
 
-            h1 {
-                display: flex;
-                justify-content: center;
-                padding-bottom: 1%;
-            }
-
-            h2 {
-                display: flex;
-                justify-content: center;
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    font-family: "archiaregular";
+                    padding-bottom: 10px;
+                }
+    
+                h2 {
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    font-family: "archiaregular";
+                    // background-color: black;
+                }   
             }
 
         }

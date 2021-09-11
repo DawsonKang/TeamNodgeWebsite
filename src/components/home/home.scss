@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .home {
     background-color: white;
     display: flex;
@@ -9,25 +11,89 @@
         flex-direction: row;
 
         .left {
+            //background-color: blue;
             top: 10%;
-            flex: 0.5;
+            flex: 0.65;
             display: flex;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
-    
-            .imgContainer {
-                width: 90%;
-                height: 90%;
+
+            .slider {
+                //background-color: black;
+                position: relative;
+                top: 8%;
+                width: 80%;
+                height: 80%;
                 display: flex;
+                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-            }
+                // transition: all 1s ease-out;
 
+                .imgContainer {
+                    //background-color: red;
+                    width: 90%;
+                    height: 90%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .indexContainer {
+                   // background-color: yellow;
+                    width: 9%;
+                    height: 7%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .indexer {
+                        height: 8px;
+                        width: 8px;
+                        background-color: rgba(10, 10, 10, 0.048);
+                        border: 1.5px solid rgba(0, 0, 0, 0.144);
+                        border-radius: 50%;
+                        display: inline-block;
+                        transition: all 0.2s ease;
+
+                        &:hover {
+                            height: 9.2px;
+                            width: 9.2px;
+                            background-color: grey;
+                        }
+                    }
+                }
+            }
             
+            .arrow {
+                position: relative;
+                top: 8%;
+                cursor: pointer;
+                width: 3%;
+                transition: all 0.2s ease;
+
+                &.leftOne {
+                    transform: rotateY(180deg);
+                    filter: invert(100%);
+
+                    &:hover {
+                        width: 4%;
+                    }
+                }
+
+                &.rightOne {
+                    filter: invert(100%);
+
+                    &:hover {
+                        width: 4%;
+                    }
+                }
+            }
         }
     
         .right {
-            flex: 0.5;
+            flex: 0.35;
             position: relative;
 
             .wrapper {
@@ -43,19 +109,16 @@
 
                 h2 {
                     font-size: 30px;
+                    font-family: "archiaregular";
                 }
 
                 h1 {
                     font-size: 50px;
-                }
-
-                h3 {
-                    font-size: 30px;
+                    font-family: "archiaregular";
 
                     span {
                         font-size: inherit;
-                        color: yellow;
-                        background-color: black;
+                        font-family: "archiaregular";
                     }
 
                     .ityped-cursor {
@@ -70,6 +133,16 @@
                             opacity: 0;
                         }
                     }
+                }
+
+                h3 {
+                    font-size: 30px;
+                    font-family: "archiaregular";
+                }
+
+                p {
+                    font-family: "archiaregular";
+                    line-height: 1.8;
                 }
             }
         }

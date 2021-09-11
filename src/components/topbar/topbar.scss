@@ -1,28 +1,38 @@
+@import "../../global.scss";
+
 .topbar {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: Black;
     color: white;
     position: fixed;
     top: 0;
-    z-index: 3;
 
     .wrapper {
-        padding: 10px 10px;
+        width: 100%;
+        height: 100%;
+        //background-color: blue;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .center {
+            width: 100%;
+            height: 100%;
+            //background-color: blue;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
 
             .name {
                 display: flex;
+                flex: 0.2;
                 align-items: center;
+                justify-content: center;
+                //background-color: blue;
 
                 .logo {
+                    font-family: "archiaregular";
                     font-size: 20px;
                     font-weight: 700;
                     color: inherit;
@@ -32,8 +42,10 @@
     
             .menu {
                 display: flex;
+                flex: 0.8;
                 align-items: center;
-                margin-top: 10px;
+                justify-content: right;
+                //background-color: red;
                 
                 .itemContainer {
                     display: flex;
@@ -48,6 +60,7 @@
                     }
 
                     a {
+                        font-family: "archiaregular";
                         font-size: 16px;
                         font-weight: 300;
                         color:inherit;

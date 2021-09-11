@@ -14,12 +14,7 @@ export default function Project() {
                         </h1>
                         <h2>
                             blah blah
-                            blah blah blah something
-                            blah blah blah something
-                        </h2>
-                        <h2>
-                            blah blah blah something
-                            blah blah blah something
+
                         </h2>
                     </div>
                 </div>
