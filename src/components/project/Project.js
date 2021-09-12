@@ -20,7 +20,7 @@ export default function Project() {
                 </div>
                 <div className="bottom">
                     <div className="imgContainer">
-                        <img src="assets/sampleApp.PNG" alt=""/>
+                        <img src="assets/sampleApp.png" alt=""/>
                     </div>
                 </div>
             </div>
