@@ -28,8 +28,13 @@
                 display: flex;
                 flex: 0.2;
                 align-items: center;
-                justify-content: center;
-                //background-color: blue;
+                justify-content: left;
+                padding-left: 30px;
+                // background-color: blue;
+
+                img {
+                    width: 50px;
+                }
 
                 .logo {
                     font-family: "archiaregular";

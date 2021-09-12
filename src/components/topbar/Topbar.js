@@ -16,7 +16,6 @@ export default function Topbar() {
                         <div className="itemContainer">
                             <HomeIcon className="icon"/>
                             <a href="#home">Home</a>
-                            {/* <span>Home</span> */}
                         </div>
                         <div className="itemContainer">
                             <WorkIcon className="icon"/>
