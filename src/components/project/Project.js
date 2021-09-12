@@ -13,8 +13,8 @@ export default function Project() {
                             PinGround
                         </h1>
                         <h2>
-                            blah blah
-
+                            Dummy: Mary Jones is an Administrative Assistant with eight years of experience 
+                            working alongside the executive team of a Fortune 500 company. 
                         </h2>
                     </div>
                 </div>

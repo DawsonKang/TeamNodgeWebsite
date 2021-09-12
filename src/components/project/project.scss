@@ -17,7 +17,8 @@
             justify-content: center;
             
             .wrapper {
-                padding-top: 10px;
+                padding: 10px;
+                width: 80%;
 
                 h1 {
                     display: flex;
@@ -31,7 +32,9 @@
                     align-content: center;
                     justify-content: center;
                     font-family: "archiaregular";
-                    // background-color: black;
+                    font-size: 20px;
+                    text-align: justify;
+                    //background-color: red;
                 }   
             }
 

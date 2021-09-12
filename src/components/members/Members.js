@@ -14,8 +14,8 @@ export default function Members() {
             name: "Scott Song",
             position: "Leader/Fronted",
             bio: "This is fake bio",
-            linkedInURL: "https://linkedin.com/in/dongwookang0412",
-            gitHubURL: "https://github.com/DawsonKang",
+            linkedInURL: "https://linkedin.com/in/seokhwansong",
+            gitHubURL: "https://github.com/ssh1419",
             email: "",
         },
         {
@@ -23,8 +23,8 @@ export default function Members() {
             name: "Adam Carmody",
             position: "Frontend",
             bio: "This is fake bio",
-            linkedInURL: "https://linkedin.com/in/dongwookang0412",
-            gitHubURL: "https://github.com/DawsonKang",
+            linkedInURL: "http://linkedin.com/in/adam-carmody-521947209",
+            gitHubURL: "https://github.com/acarmody05",
             email: "",
         },
         {
@@ -32,8 +32,8 @@ export default function Members() {
             name: "Polina Semenova",
             position: "Frontend",
             bio: "This is fake bio",
-            linkedInURL: "https://linkedin.com/in/dongwookang0412",
-            gitHubURL: "https://github.com/DawsonKang",
+            linkedInURL: "https://linkedin.com/in/polina-semenova-022041211",
+            gitHubURL: "https://github.com/psemenova",
             email: "",
         },
         {
