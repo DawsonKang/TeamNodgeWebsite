@@ -3,6 +3,7 @@ import "./project.scss"
 
 export default function Project() {
 
+    const temp = "assets/sample.png";
 
     return (
         <div className="project" id="project">
@@ -20,7 +21,8 @@ export default function Project() {
                 </div>
                 <div className="bottom">
                     <div className="imgContainer">
-                        <img src="assets/sampleApp.png" alt=""/>
+                        <img src={temp} alt=""/>
+                        {console.log(temp)}
                     </div>
                 </div>
             </div>

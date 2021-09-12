@@ -10,6 +10,7 @@ export default function Topbar() {
             <div className="wrapper">
                 <div className="center">
                     <div className="name">
+                        {/* <img src="assets/TeamNodgeLogo.png" alt=""/> */}
                         <a href="#home" className="logo">Team Nodge</a>
                     </div>
                     <div className="menu">
