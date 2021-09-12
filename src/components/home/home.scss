@@ -98,11 +98,9 @@
 
             .wrapper {
                 position: absolute;
-                top: 5%;
-                width: 90%;
-                height: 90%;
-                padding-left: 2%;
-                padding-right: 2%;
+                width: 85%;
+                height: 100%;
+                right: 15%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -110,11 +108,13 @@
                 h2 {
                     font-size: 30px;
                     font-family: "archiaregular";
+                    padding: 5px;
                 }
 
                 h1 {
                     font-size: 50px;
                     font-family: "archiaregular";
+                    padding: 10px;
 
                     span {
                         font-size: inherit;
@@ -138,11 +138,13 @@
                 h3 {
                     font-size: 30px;
                     font-family: "archiaregular";
+                    padding: 5px;
                 }
 
                 p {
                     font-family: "archiaregular";
                     line-height: 1.8;
+                    text-align: justify;
                 }
             }
         }
