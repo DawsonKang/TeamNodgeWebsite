@@ -79,8 +79,8 @@ export default function Home() {
                 <div className="right">
                     <div className="wrapper">
                         <h2>Who Are We?</h2>
-                        <h1>&nbsp; &nbsp; &nbsp; &nbsp;<span ref={textRef}></span></h1>
-                        <h3>&nbsp;&nbsp;"Let's Change the World!"</h3>
+                        <h1><span ref={textRef}></span></h1>
+                        <h3>"Let's Change the World!"</h3>
                         <p>
                         Dummy: Mary Jones is an Administrative Assistant with eight years of experience 
                         working alongside the executive team of a Fortune 500 company. 

@@ -9,3 +9,11 @@
     font-weight: 200;
     src: url("./fonts/Archia_Regular/Archia_Regular/Archia\ Regular\ Webfont/archia-regular-webfont.ttf") format("truetype");
 }
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
