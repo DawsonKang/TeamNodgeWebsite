@@ -145,8 +145,7 @@
                     justify-content: center;
                     width: 100%;
                     right: 0;
-                    background-color: red;
-                    
+                    //background-color: red;
                 }
 
                 h2 {
@@ -173,7 +172,7 @@
 
                     @include mobile {
                         font-size: 20px;
-                        padding: 0;
+                        padding: 5px;
                     }
 
                     .ityped-cursor {
@@ -194,12 +193,26 @@
                     font-size: 30px;
                     font-family: "archiaregular";
                     padding: 5px;
+
+                    @include mobile {
+                        font-size: 20px;
+                        padding: 5px;
+                    }
                 }
 
                 p {
                     font-family: "archiaregular";
                     line-height: 1.8;
                     text-align: justify;
+
+                    @include mobile {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        font-size: 15px;
+                        line-height: 1.2;
+                        padding: 5px;
+                        text-align: left;
+                    }
                 }
             }
         }

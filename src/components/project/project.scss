@@ -15,6 +15,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include mobile {
+                flex: 0.5;
+            }
             
             .wrapper {
                 padding: 10px;
@@ -35,6 +39,12 @@
                     font-size: 20px;
                     text-align: justify;
                     //background-color: red;
+
+                    @include mobile {
+                        flex: 0.5;
+                        font-size: 18px;
+                        text-align: left;
+                    }
                 }   
             }
 
@@ -45,6 +55,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @include mobile {
+                flex: 0.5;
+            }
             
             .imgContainer {
                 width: 100%;
