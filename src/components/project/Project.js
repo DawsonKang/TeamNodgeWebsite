@@ -3,7 +3,10 @@ import "./project.scss"
 
 export default function Project() {
 
-    const temp = "assets/sample.png";
+    //const temp = "assets/sample.png";
+    const image1 =  "assets/appImage1.png";
+    const image2 =  "assets/appImage2.png";
+    const image3 =  "assets/appImage3.png";
 
     return (
         <div className="project" id="project">
@@ -11,18 +14,21 @@ export default function Project() {
                 <div className="top">
                     <div className="wrapper">
                         <h1>
-                            PinGround
+                            PinCliq
                         </h1>
                         <h2>
-                            Dummy: Mary Jones is an Administrative Assistant with eight years of experience 
-                            working alongside the executive team of a Fortune 500 company. 
+                            Discover where the people and things you love are located.<br/> 
+                            We want PinCliq to be a new world where people can experience their life with a new way to communicate and discover the world
                         </h2>
                     </div>
                 </div>
                 <div className="bottom">
                     <div className="imgContainer">
-                        <img src={temp} alt=""/>
-                        {console.log(temp)}
+                        <img src={image1} alt=""/>
+                        <p>&nbsp;&nbsp;</p>
+                        <img src={image2} alt=""/>
+                        <p>&nbsp;&nbsp;</p>
+                        <img src={image3} alt=""/>
                     </div>
                 </div>
             </div>

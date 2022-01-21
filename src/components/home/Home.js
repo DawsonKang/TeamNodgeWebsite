@@ -82,11 +82,7 @@ export default function Home() {
                         <h1><span ref={textRef}></span></h1>
                         <h3>"Let's Change the World!"</h3>
                         <p>
-                        Dummy: Mary Jones is an Administrative Assistant with eight years of experience 
-                        working alongside the executive team of a Fortune 500 company. 
-                        Mary specializes in administrative technology and is responsible for educating 
-                        other employees on using progressive systems and applications, including accounting software, 
-                        mass communication procedures and organizational apps. 
+                        Our team’s vision is to help you experience a new world through our app. We are developing an app that will become a new way of social connection.
                         </p>
                     </div>
                 </div>
