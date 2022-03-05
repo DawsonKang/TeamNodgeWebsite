@@ -7,7 +7,7 @@ export default function Home() {
 
     const imgData = [
         {
-            img: "assets/teamImage1.jpg"
+            img: "assets/team1.jpg"
         },
         {
             img: "assets/teamImage2.jpg"
