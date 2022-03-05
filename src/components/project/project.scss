@@ -66,6 +66,11 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    height: 60%;
+                    width: 100%;
+                }
         
 
                 img {
