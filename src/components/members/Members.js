@@ -10,7 +10,7 @@ export default function Members() {
 
     const data = [
         {
-            img: "assets/emptyProfiles.png",
+            img: "assets/scott.jpg",
             name: "Scott Song",
             position: "Leader/Fronted",
             bio: "This is fake bio",
@@ -19,31 +19,22 @@ export default function Members() {
             email: "",
         },
         {
-            img: "assets/emptyProfiles.png",
-            name: "Adam Carmody",
-            position: "Frontend",
-            bio: "This is fake bio",
-            linkedInURL: "http://linkedin.com/in/adam-carmody-521947209",
-            gitHubURL: "https://github.com/acarmody05",
-            email: "",
-        },
-        {
-            img: "assets/emptyProfiles.png",
-            name: "Polina Semenova",
-            position: "Frontend",
-            bio: "This is fake bio",
-            linkedInURL: "https://linkedin.com/in/polina-semenova-022041211",
-            gitHubURL: "https://github.com/psemenova",
-            email: "",
-        },
-        {
-            img: "assets/emptyProfiles.png",
+            img: "assets/dongwoo.jpg",
             name: "Dongwoo Kang",
-            position: "Backend",
-            bio: "This is fake bio",
+            position: "Frontend & Backend",
+            bio: "Hello I am Dongwoo Kang",
             linkedInURL: "https://linkedin.com/in/dongwookang0412",
             gitHubURL: "https://github.com/DawsonKang",
             email: "dawson41271@gmail.com",
+        },
+        {
+            img: "assets/polina.png",
+            name: "Polina Semenova",
+            position: "Frontend",
+            bio: "Hello I am Polina",
+            linkedInURL: "https://linkedin.com/in/polina-semenova-022041211",
+            gitHubURL: "https://github.com/psemenova",
+            email: "",
         },
     ]
 
@@ -70,9 +61,6 @@ export default function Members() {
                                 </a>
                             </h1>
                             <h2>{member.position}</h2>
-                            <div className="bio">
-                                <h3>{member.bio}</h3>
-                            </div>
                         </div>
                     </div>
                 ))}

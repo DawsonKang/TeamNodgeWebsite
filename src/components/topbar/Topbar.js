@@ -2,7 +2,9 @@
 import "./topbar.scss"
 import HomeIcon from '@material-ui/icons/Home';
 import WorkIcon from '@material-ui/icons/Work';
+import RoadmapIcon from '@material-ui/icons/TrendingFlat';
 import GroupIcon from '@material-ui/icons/Group';
+
 
 export default function Topbar() {
     return (
@@ -20,6 +22,10 @@ export default function Topbar() {
                         <div className="itemContainer">
                             <WorkIcon className="icon"/>
                             <a href="#project">Project</a>
+                        </div>
+                        <div className="itemContainer">
+                            <RoadmapIcon className="icon"/>
+                            <a href="#roadmap">Roadmap</a>
                         </div>
                         <div className="itemContainer">
                             <GroupIcon className="icon"/>

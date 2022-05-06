@@ -50,14 +50,14 @@
 
         }
 
-        .bottom {
-            flex: 0.8;
+        .center {
+            flex: 0.65;
             display: flex;
             align-items: center;
             justify-content: center;
 
             @include mobile {
-                flex: 0.5;
+                flex: 0.65;
             }
             
             .imgContainer {
@@ -77,6 +77,35 @@
                     height: 95%;
                     border: 2px solid black;
                     border-radius: 25px;
+                }
+            }
+
+        }
+
+        .bottom {
+            flex: 0.15;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include mobile {
+                flex: 0.15;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .imgContainer {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+
+                @include mobile {
+                    height: 100%;
+                    width: 100%;
+                }
+
+                img {
+                    height: 50%;
                 }
             }
 

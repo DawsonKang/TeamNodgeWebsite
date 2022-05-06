@@ -3,10 +3,11 @@ import "./project.scss"
 
 export default function Project() {
 
-    //const temp = "assets/sample.png";
-    const image1 =  "assets/appImage1.png";
-    const image2 =  "assets/appImage2.png";
-    const image3 =  "assets/appImage3.png";
+    const image1 =  "assets/appImage1.jpg";
+    const image2 =  "assets/appImage2.jpg";
+    const image3 =  "assets/appImage3.jpg";
+    const google =  "assets/google store.jpg";
+    const apple =  "assets/app store.jpg";
 
     return (
         <div className="project" id="project">
@@ -22,7 +23,7 @@ export default function Project() {
                         </h2>
                     </div>
                 </div>
-                <div className="bottom">
+                <div className="center">
                     <div className="imgContainer">
                         <img src={image1} alt=""/>
                         <p>&nbsp;&nbsp;</p>
@@ -31,9 +32,19 @@ export default function Project() {
                         <img src={image3} alt=""/>
                     </div>
                 </div>
+                <div className="bottom">
+                    <div className="imgContainer">
+                            <a href="https://play.google.com/store/apps/details?id=com.pincliq">
+                                <img src={google} alt=""/>
+                            </a>
+                            <a href="https://apps.apple.com/us/app/pincliq/id1617743269">
+                                <img src={apple} alt=""/>
+                            </a>
+                    </div>
+                </div>
             </div>
             <div className="down">
-                <a href="#members">
+                <a href="#roadmap">
                     <img src="assets/down.png" alt=""/>
                 </a>
             </div>
